@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Rubik:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  scroll-behavior: smooth;
+
+}
+
+*::selection {
+  content: "";
+  background-color: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+
+.parent-hide, .sbox-hide {
+  visibility: hidden;
+}
+}
+.parent {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./Ramji.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+
+
+@media (max-width: 1650px) {
+  .parent {
+    background-position: center 50%;
+    background-size: cover;
+  }
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav a {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.txt {
+  font-family: "Rubik", sans-serif;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 4vw;
+  color: white;
+  display: inline-block;
+  animation: typing 8s;
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.texts {
+  top: 32vh;
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 44vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn {
+  height: 2vmax;
+  width: 8vmax;
+  background-color: yellow;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: #C8C212;
+}
+
+@media (max-width: 1130px) {
+  .btn {
+    overflow: hidden;
+  }
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 58vh;
+  width: 8;
+  background: yellow;
+  background-size: cover;
+  background-position: center;
+}
+
+.sbox {
+  position: relative;
+  margin-top: 6vmax;
+  border: 6px solid white;
+  width: 26vw;
+  height: 36vh;
+  background-image: url("./ramkopave.avif");
+  background-size: cover;
+}
+
+
+
+@media (max-width: 1360px) {
+  .sbox {
+    width: 25.6vw;
+  }
+}
+
+@media (max-width: 1326px) {
+  .sbox {
+    background-size: cover;
+    background-position: center;
+    width: 30vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .sbox {
+    width: 60vw;
+  }
+
+  .tham h1 {
+    text-align: center;
+  }
+}
+
+.tham h1 {
+  text-wrap: balance;
+  margin-right: -1vw;
+  text-decoration: underline;
+  font-family: "Marhey", sans-serif;
+  font-size: 5vh;
+  margin-left: 0vw;
+  text-align: center;
+}
+
+@media (max-width: 1072px) {
+  .sbox {
+    visibility: hidden;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 3496px) {
+  .tham h1 {
+    top: 3vw;
+    left: 4vw;
+    position: relative;
+    align-items: center;
+    position: relative;
+    margin-left: -1vw;
+    text-wrap: balance;
+    text-decoration: underline;
+    font-family: "Marhey", sans-serif;
+    font-size: 5vh;
+    margin-left: 0vw;
+    text-align: center;
+    transition: all 0.25s ease-in;
+  }
+}
+
+@media (max-width: 509px) {
+  .tham {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .tham h1 {
+    text-wrap: wrap;
+    text-align: center;
+    overflow: hidden;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 420px) {
+  .mandir:hover {
+    text-decoration: underline;
+    letter-spacing: 0.55px;
+    transition: all 0.25s ease-in;
+  }
+}
+
+.mandir:hover {
+  text-decoration: underline;
+  letter-spacing: 0.69px;
+  transition: all 0.25s ease-in;
+}
+
+.timing {
+  background: orange;
+  height: 63vh;
+  width: 100vw;
+}
+
+.ttxt h1 {
+  text-align: center;
+}
+
+.ttxt h1:hover {
+  transform: scaleX(1.2);
+  transition: all 0.25s ease;
+}
+
+.bxs {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 2vh;
+  border: 2px solid white;
+  height: 55vh;
+  width: 100vw;
+}
+
+.aboxes {
+  margin-top: 2vh;
+  border: 2px solid rgb(255, 0, 0);
+  width: 50vw;
+  height: 44vh;
+}
+
+
+.darshan {
+  background-color: green;
+  width: 100vw;
+  height: 65vh;
+}
+
+.finally {
+  margin: auto;
+  width: 100vw;
+  height: 65vh;
+  border: 2px solid white;
+}
+
+.finally iframe {
+  width: 100vw;
+  height: 65vh;
+  border: 1px solid white;
+}
+
+.animate {
+  background-color: orange;
+}
+
+.animate h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: red;
+  position: relative; 
+  animation: boxAnimate 5s ease-in infinite;
+}
+
+@keyframes boxAnimate {
+  from {
+    left: -100%; 
+  }
+  to {
+    left: 100%; 
+  }
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after{
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid orange;
+  border-top-color: red;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.v1 {
+  display: flex;
+  margin-left: 45vmax;
+  height: 100%;
+  border-left: 6.4px solid white;
+}
+
+
+@media (max-width:450px) {
+  .aboxes {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.txthide {
+  visibility: hidden;
+}
+
+@media (max-width:709px) {
+  .aboxes iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:625px) {
+  .tham h1 {
+    text-wrap: balance;
+    margin-right: -1vw;
+    text-decoration: underline;
+    font-family: "Marhey", sans-serif;
+    font-size: 4vh;
+    margin-left: 0vw;
+    text-align: center;
+}
+}
+
+@media (max-width:420px) {
+  .tham h1 {
+    font-size: 3vh;
+  }
+}
